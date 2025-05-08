@@ -49,5 +49,33 @@ print (valornumericoDecimal+20.52);
 // 2. Usar el double.parse pero en lugar de guardar "10.1" ("Pepito")
 // Que sucede??
 // 3. cOMO PUEDO RESOLVER ESO? -> Pista double.tryParse
+bool miPrimerBooleano=false;
+print(miPrimerBooleano);
 
+
+bool _isLoading=true;
+
+/// listas
+/// 
+/// Como se crean 
+/// entre corchetes
+
+List <String> compras=['leche','arroz','azucar','panes'];
+String a='papas';
+String b='naranjas';
+String c='Peras';
+
+List <String> compras2=['leche','arroz',a,b,c];
+print (compras2);
+
+List <double> precios=[1.25,3.25,1,3];
+print(precios);
+
+List <dynamic> milista=[1.25,10,'Vinicio',true];
+print(milista);
+
+// que se puede hacer con las listas
+
+// tarea imprimir el ultimo valor de la lista sin usar las posiciones
+//usar lenght
 }
