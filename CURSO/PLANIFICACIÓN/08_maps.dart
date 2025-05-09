@@ -78,5 +78,14 @@ void main() {
   usuario.remove("nmobre");
   print(usuario);
   
+  // Ejemplo práctico
+  // Vamos a suponer que tenemos una cadena de restaurantes 
+  // Restaurante Eliza
+  // Restaurante Perez
+  // Restaurante Remoto
+  // Cada restaurante tiene menus en específico
+  // El restaurante Eliza tiene -> café, sanduches y desayunos
+  // El restaunrante Perez tiene -> almuerzos, hamburguesas y papas fritas
+  // El restaurante remoto tiene -> hamburguesas, hot dogs y papas fritas.
 
 }
